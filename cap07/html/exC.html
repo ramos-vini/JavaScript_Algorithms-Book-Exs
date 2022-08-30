@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cap 07 - Ex C</title>
+    <style>
+        .off {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Clínica Veterinária</h1>
+    <p>
+        Valor da Vacina (R$): <input type="number" id="inValor">
+    </p>
+    <p>
+        Possui Convênio: <input type="radio" name="convenio" id="rbConvenioSim"> Sim <input type="radio" name="convenio"
+            id="rbConvenioNao" checked> Não
+    </p>
+    <p id="parConvenio" class="off">
+        Convênio:
+        <select name="" id="selectConvenio">
+            <option value="Amigo dos Animais">Amigo dos Animais</option>
+            <option value="Saúde Animal">Saúde Animal</option>
+        </select>
+    </p>
+    <input type="button" value="Calcular Desconto" id="btCalcular">
+    <h3 id="outDesconto"></h3>
+
+    <script src="../js/exC.js"></script>
+</body>
+
+</html>
