@@ -1,4 +1,4 @@
-# JavaScript Exercises - Programming Logic and Algorithms [PT-BR]
+# JavaScript Exercises [PT-BR]
 These are my personal solutions for JavaScript algorithm exercises from the book "Lógica de Programação e Algoritmos com JavaScript - Edécio Fernando Iepsen".
 
 Main Topics Covered:
